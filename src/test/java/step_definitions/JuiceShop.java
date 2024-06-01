@@ -15,7 +15,7 @@ import java.util.List;
 import static org.testng.Assert.*;
 import static utilities.DriverSetup.getDriver;
 
-public class LoginStep {
+public class JuiceShop {
     LoginPage loginPage = new LoginPage();
     BasePage basePage = new BasePage();
 

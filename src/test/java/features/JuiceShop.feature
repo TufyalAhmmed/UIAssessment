@@ -1,9 +1,9 @@
-Feature: Login feature
+Feature:Juice shop UI Automation feature
 
   Background:
     Given user is on the login page
 
-  @sanity @login
+    @Sanity
   Scenario: User login with valid credentials and Add to basket & add address and Verify them
     When user input valid "tufyalahmmed1@gmail.com" and "Tufyal123!"
     And user click on the login button
