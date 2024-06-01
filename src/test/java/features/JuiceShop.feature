@@ -5,7 +5,7 @@ Feature:Juice shop UI Automation feature
 
     @Sanity
   Scenario: User login with valid credentials and Add to basket & add address and Verify them
-    When user input valid "tufyal15-133@diu.edu.bd" and "Tufyal123!"
+    When user input valid "tufyalahmmed1@gmail.com" and "Tufyal123!"
     And user click on the login button
     And Add apple to the basket
     And Checkout from basket
